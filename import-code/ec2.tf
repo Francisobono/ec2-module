@@ -12,7 +12,7 @@ resource "aws_instance" "web" {
   security_groups                      = ["launch-wizard-2"]
   subnet_id                            = "subnet-0dc0aab166a0a7131"
   tags = {
-    Name = "ddd"
+    Name = "server-ec2"
   }
 }
   
